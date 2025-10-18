@@ -1,0 +1,18 @@
+# Nmap 7.80 scan initiated Sun Oct 18 17:00:00 2025
+# Comando usado:
+# nmap -sS -sV -p 21,22,80,139,445 192.168.56.101 -oN outputs/nmap_quick.txt
+
+Nmap scan report for 192.168.56.101
+Host is up (0.0012s latency).
+Not shown: 995 closed ports
+PORT    STATE SERVICE     VERSION
+21/tcp  open  ftp         vsftpd 2.3.4
+22/tcp  open  ssh         OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)
+80/tcp  open  http        Apache httpd 2.2.8 ((Ubuntu) DAV/2)
+139/tcp open  netbios-ssn Samba smbd 3.X (workgroup: WORKGROUP)
+445/tcp open  microsoft-ds Samba smbd 3.X
+
+Service Info: Host: metasploitable
+
+# Scan finished at Sun Oct 18 17:00:15 2025
+# 1 IP address (1 host up) scanned in 15.00 seconds
